@@ -1,4 +1,5 @@
 import React from 'react';
+//image imports
 import Menu from './Images/menu.svg';
 import Logo from './Images/Logo.svg';
 import Search from './Images/search.svg';
@@ -7,11 +8,10 @@ import help from './Images/help_outline.svg';
 import settings from './Images/settings.svg';
 import more from './Images/Apps.svg';
 import avatar from './Images/Avatar.svg';
-// import leftcircle from "./Images/Ellipse 4.svg"
-// import rightcircle from "./Images/Ellipse 5.svg"
+
 export const Navbar = () => {
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between border-b-[1px] border-gray-200 pb-[9px]">
       <div className=" flex">
         <div className="flex p-2 ">
           <img className="pr-5 pl-4" src={Menu} alt="menu-bar"></img>
@@ -30,11 +30,7 @@ export const Navbar = () => {
         <img src={help} alt="help"></img>
         <img src={settings} alt="settings"></img>
         <img src={more} alt="more"></img>
-       {/* <div className="flex items-center justify-center "> */}
-        {/* <img className="absolute bottom-0" src={leftcircle} alt="left-circle"></img>
-        <img className="absolute left-0 bottom-0" src={rightcircle} alt="left-circle"></img> */}
-       <img src={avatar} alt="avatar"></img>
-       {/* </div> */}
+        <img src={avatar} alt="avatar"></img>
       </div>
     </div>
   );

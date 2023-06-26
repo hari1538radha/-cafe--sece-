@@ -1,11 +1,12 @@
 //component imports
 import {Navbar} from "./component/New folder/Navbar"
-import './App.css';
+import Sidebar from "./component/Sidebar/Sidebar";
 
 function App() {
   return (
     <div className="">
       <Navbar />
+      <Sidebar/>
     </div>
   );
 }
