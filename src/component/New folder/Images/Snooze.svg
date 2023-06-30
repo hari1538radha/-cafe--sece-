@@ -1,0 +1,12 @@
+<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="22" height="22" fill="#EDEDED"/>
+<g id="Side Navigations">
+<rect x="-287" y="-1541" width="1440" height="1835" rx="30" fill="white"/>
+<g id="Side Nav icons">
+<g id="Page=Snooze">
+<path id="Vector" d="M10.9997 1.83325C5.95801 1.83325 1.83301 5.95825 1.83301 10.9999C1.83301 16.0416 5.95801 20.1666 10.9997 20.1666C16.0413 20.1666 20.1663 16.0416 20.1663 10.9999C20.1663 5.95825 16.0413 1.83325 10.9997 1.83325ZM14.8497 14.8499L10.083 11.9166V6.41659H11.458V11.1833L15.583 13.6583L14.8497 14.8499Z" fill="black" fill-opacity="0.54"/>
+</g>
+<rect x="-19.5" y="-96.5" width="94" height="324" rx="4.5" stroke="#7B61FF" stroke-dasharray="10 5"/>
+</g>
+</g>
+</svg>
